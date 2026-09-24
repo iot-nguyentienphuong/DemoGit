@@ -22,33 +22,33 @@ int main()
 	cin >> cc;
 	cout << "nhap can nang: ";
 	cin >> cn;
-	double bim = cn / (cc * cc);
-	cout << "Chi so BMI: " << bim << endl;
-	if (bim < 15)
+	double bmi = cn / (cc * cc);
+	cout << "Chi so BMI: " << bmi << endl;
+	if (bmi < 15)
 	{
 		cout << "thân hình quá gầy: " << endl;
 	}
-	else if (bim >= 15 && bim < 16)
+	else if (bmi >= 15 && bmi < 16)
 	{
 		cout << "thân hình gầy: " << endl;
 	}
-	else if(bim >= 16 && bim < 18.5)
+	else if(bmi >= 16 && bmi < 18.5)
 	{
 			cout << "thân hình hơi gầy: " << endl;
 		}
-	else if (bim >= 18.5 && bim < 25)
+	else if (bmi >= 18.5 && bmi < 25)
 	{
 		cout << "thân hình bình thường: " << endl;
 	}
-	else if (bim >= 25 && bim < 30)
+	else if (bmi >= 25 && bmi < 30)
 	{
 		cout << "thân hình hơi béo: " << endl;
 	}
-	else if (bim >= 30 && bim < 35)
+	else if (bmi >= 30 && bmi < 35)
 	{
 		cout << "thân hình béo: " << endl;
 	}
-	else if (bim >= 35)
+	else if (bmi >= 35)
 	{
 		cout << "thân hình béo phì: " << endl;
 	}
